@@ -52,6 +52,7 @@ function clickRules ( button )
     if button == "left" then
 		if source == guiRules.acceptRules then
 			hideServerRules()
+			--[[
 			if state == 0 then
 				triggerServerEvent("apps:startStep11", localPlayer)
 			elseif state == 1 then
@@ -59,6 +60,8 @@ function clickRules ( button )
 			elseif state == 2 then
 				triggerServerEvent("apps:startStep3", localPlayer)
 			end
+			]]
+			--triggerServerEvent("apps:startStep3", localPlayer)
 			playSoundFrontEnd(12)
 		end
 		if guiRules.acceptRules and isElement(guiRules.acceptRules) and guiRules.checkbox and isElement(guiRules.checkbox) then
