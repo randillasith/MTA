@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<meta>
+    <info name="Vehicle Wrapper" author="Kiritho" version="1.0" description="A script to wrap a player into a vehicle." />
+    <script src="server.lua" type="server" />
+    <export function="wrapPlayerInVehicle" />
+</meta>
